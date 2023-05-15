@@ -23,6 +23,7 @@
         public uint HeaderOffset_2 { get; set; }
         public uint VagChunkLength_2 { get; set; }
         public uint VagChunkOffset_2 { get; set; }
+        public int GroupCount { get; set; }
 
         // Audio parameters
         public uint VagiOffset { get; set; }
@@ -31,6 +32,7 @@
         public uint[] AudioOffsets { get; set; }
         public uint[] AudioLengths { get; set; }
         public uint[] AudioFrequencies { get; set; }
+        public uint[] AudioLoop { get; set; }
         public byte[] AudioBytes { get; set; }
         public byte[] AllAudioBytes { get; set; }
     }

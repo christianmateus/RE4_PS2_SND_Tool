@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            SndMain extractor = new SndMain(args[0]);
+            SndMain extractor = new SndMain(args[0], args[1]);
         }
     }
 }
